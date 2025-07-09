@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: ffmpeg-render-worker
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
